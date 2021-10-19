@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Login.css"
-import useAuth from '../hooks/useAuth';
 import useFirebase from '../hooks/useFirebase';
 
 const Login = () => {
