@@ -1,0 +1,11 @@
+.carousel-caption {
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 667px) {
+    .carousel-caption {
+        display: none;
+    }
+  }

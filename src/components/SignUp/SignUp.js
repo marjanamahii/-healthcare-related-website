@@ -7,11 +7,9 @@ import { Link } from 'react-router-dom';
 const SignUp = () => {
     const {
         handleGoogleLogin,
-        user,
         error,
         handleGithubLogin,
         handleUserRegister,
-        handleUserLogin,
     } = useFirebase();
 
     const [email, setEmail] = useState('');
@@ -29,11 +27,6 @@ const SignUp = () => {
     const handleRegister = () => {
         handleUserRegister(email, password);
     };
-
-    const handleLogin = () => {
-        handleUserLogin(email, password);
-    };
-
     return (
         <div className="div">
             <div id="login" className="py-4 py-sm-5 page-signin">

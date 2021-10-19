@@ -1,4 +1,37 @@
-.header a{
-    margin-right: 10px;
+.header{
+    background-color: black;
+}
+.navbar-brand img {
+    height: 50px;
+}
+.navbar {
+    padding: 0;
+    
+}
+@media (min-width: 992px) {
+    .navbar-collapse {
+        flex-basis: auto;
+        flex-grow: 0;
+        align-items: center;
+    }
+  }
+.menu {
+    align-items: center;
+
+}
+.menu a {
+    color: rgb(100, 98, 219);
+    font-size: 16px;
     text-decoration: none;
+    padding: 15px 20px;
+    border-bottom: 4px transparent solid;
+    line-height: 42px;
+}
+.menu a.active {
+    border-bottom: 4px red solid;
+}
+.menu .dropdown-toggle::after {
+    position: absolute;
+    right: -5px;
+    top: 48%;
 }
