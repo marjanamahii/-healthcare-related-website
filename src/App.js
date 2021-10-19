@@ -7,6 +7,8 @@ import Login from './components/Login/Login';
 import NotFound from './components/NotFound/NotFound';
 import Register from './components/Register/Register';
 import Services from './components/Services/Services';
+import Footer from './components/Footer/Footer';
+import SignUp from './components/SignUp/SignUp';
 
 function App() {
   return (
@@ -23,16 +25,17 @@ function App() {
           <Route path="/login">
             <Login></Login>
           </Route>
+          <Route exact path="/signup">
+            <SignUp></SignUp>
+          </Route>
           <Route path="/services">
             <Services></Services>
-          </Route>
-          <Route path="/register">
-            <Register></Register>
           </Route>
           <Route path="*">
             <NotFound></NotFound>
           </Route>
         </Switch>
+        <Footer></Footer>
       </BrowserRouter>
     </div>
   );
