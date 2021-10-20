@@ -6,7 +6,7 @@ import logo from '../../images/logo.png'
 const Footer = () => {
     return (
         <>
-            <div className="footer-area bg-dark py-50">
+            <div className="footer-area bg-light py-50">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 col-lg-3 mb-3 mb-lg-0">
@@ -14,12 +14,12 @@ const Footer = () => {
                                 <Image src={logo} />
                             </a>
                             <div className="footer-left-info border-0">
-                                <p className="text-white">21st Century is proud to employ a team of 50+ full-time employees – each with a specific field of expertise.</p>
+                                <p className="text-primary">21st Century is proud to employ a team of 50+ full-time employees – each with a specific field of expertise.</p>
 
                             </div>
                         </div>
                         <Col md={6} lg={3} className="mb-3 mb-lg-0">
-                            <div className="footer-content text-white">
+                            <div className="footer-content text-primary">
                                 <h3>Our <span className="text-warning">Offices</span></h3>
                                 <div className="location">
                                     <i className="fa fa-map-marker mt-1" aria-hidden="true"></i>
@@ -29,7 +29,7 @@ const Footer = () => {
                             </div>
                         </Col>
                         <Col md={6} lg={3} className="mb-3 mb-lg-0">
-                            <div className="footer-content text-white">
+                            <div className="footer-content text-primary">
                                 <h3 className="fs-19 text-uppercase fw-500">Quick <span className="text-warning">Links</span></h3>
                                 <ListGroup>
                                     <Link to="#">Why HealthCare</Link>
@@ -41,7 +41,7 @@ const Footer = () => {
                             </div>
                         </Col>
                         <Col md={6} lg={3} className="mb-3 mb-lg-0">
-                            <div className="footer-content text-white">
+                            <div className="footer-content text-primary">
                                 <h3 className="fs-19 fw-500">Services <span className="text-warning">Area</span></h3>
                                 <ListGroup>
                                     <Link to="#">Personal / Companion Home Care</Link>

@@ -4,7 +4,8 @@ import { Card, Col } from 'react-bootstrap';
 const Service = (props) => {
     const { title, description, img } = props.service
     return (
-        <div>
+        <div className=
+            "pb-3">
             <Col>
                 <Card border="secondary">
                     <Card.Img variant="top" src={img} />
