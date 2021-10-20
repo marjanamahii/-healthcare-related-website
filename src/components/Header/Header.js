@@ -10,9 +10,9 @@ const Header = () => {
             <div className="header">
                 <Navbar bg="light" variant="light" >
                     <Container>
-                        <Navbar.Brand>
+                        <Navbar.Brand className="text-primary">
                             <img className="logo" src={logo} alt="" />{' '}
-                            Health Care
+                            Medinova Health Care
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbar-nav" />
                         <Navbar.Collapse id="navbar-nav">

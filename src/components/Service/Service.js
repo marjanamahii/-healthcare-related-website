@@ -11,9 +11,8 @@ const Service = (props) => {
                     <Card.Img variant="top" src={img} />
                     <Card.Body>
                         <Card.Title>{title}</Card.Title>
-                        <Card.Text>
-                            Description: {description}
-                        </Card.Text>
+                        <Card.Text>{description}</Card.Text>
+                        <button>Click Here</button>
                     </Card.Body>
                 </Card>
             </Col>
